@@ -1,10 +1,24 @@
 package primeractividad;
 
 public class Purchase {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	private String customer;
+	private String game;
+	private int quantity;
+	private double totalprice;
+	
+	
+	public Purchase(String customer, String game, int quantity, double totalprice) {
+		
+		this.customer = customer;
+		this.game = game;
+		this.quantity = quantity;
+		this.totalprice = totalprice;
+	}
+	
+	
+	
 
 	}
 
-}
+
