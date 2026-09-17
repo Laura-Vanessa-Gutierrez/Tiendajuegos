@@ -41,7 +41,7 @@ public class Customer {
 		
 		balance += cantidad;
 		
-		System.out.println("El saldo se ha añadido correctamente, siendo el saldo actual: " + balance + " €");
+		System.out.println("El saldo se ha añadido correctamente, siendo el saldo actual: " + balance);
 	}
 	
 	
@@ -59,7 +59,7 @@ public class Customer {
 		
 		balance -= cantidad;
 		
-		System.out.println("Saldo retirado, el saldo actual es: " + balance + " €");
+		System.out.println("Saldo retirado, el saldo actual es: " + balance);
 	}
 	
 	
@@ -73,6 +73,6 @@ public class Customer {
 		return "Cliente \n" +
 		       "ID: " + id + "\n" +
 		       "Nombre: " + name + "\n" +
-		       "Saldo: " + balance + " €";
+		       "Saldo: " + balance;
 	}
 }
