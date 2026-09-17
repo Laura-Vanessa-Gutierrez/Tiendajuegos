@@ -13,6 +13,14 @@ public class Store {
 		this.games = new ArrayList<>();
 		this.customer = new ArrayList<>();
 		this.purchases = new ArrayList<>();
+		
+		
+		games.add(new Game(1, "Minecraft", GENRE.SIMULATION, 29.99, 5));
+		games.add(new Game(2, "Hollow Knight", GENRE.ADVENTURE, 14.99, 3));
+		games.add(new Game(3, "Celeste", GENRE.PLATAFORM, 19.99, 0));
+		customer.add(new Customer(1, "Laura", 100.0));
+		customer.add(new Customer(2, "Ana", 500.0));
+		customer.add(new Customer(3, "Luis", 30.0));
 
 	}
 
@@ -128,6 +136,13 @@ public class Store {
 		purchases.add(nuevaCompra);
 		
 		System.out.println("La compra ha sido realizada con éxito");
+	}
+	
+	
+	public ArrayList<Game> getGames() {
+		
+		return games;
+		
 	}
 	
 	
